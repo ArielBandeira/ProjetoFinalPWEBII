@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Search from '../search/Search';
+import Results from '../results/Results';
 
 function App() {
   return (
@@ -18,15 +19,9 @@ function App() {
             </div>
             <Search />
           </div>
+          <Results />
           <span className="info">ex. Alien, Guardians Of The Galaxy, O Auto da Compadecida</span>
         </form>
-      </div>
-      <div className="s130">
-        <img src="../public/logo192.png" alt="img" /><br /></div>
-      <div className="s130">
-        <h3>Movie Info:  </h3><br/>
-        <h4>Title:  </h4><h5> </h5><br />
-        <h4>Year:  </h4><h5> </h5><br />
       </div>
     </div>
   );
