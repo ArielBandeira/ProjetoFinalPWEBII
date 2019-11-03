@@ -19,7 +19,8 @@ function App() {
             </div>
             <Search />
           </div>
-          <span className="info">ex. Alien, Guardians Of The Galaxy, O Auto da Compadecida</span><br /><br />
+          <span className="info">ex. Alien, Guardians Of The Galaxy, O Auto da Compadecida</span>
+          <br /><br /><br />
           <Results />
         </form>
       </div>
