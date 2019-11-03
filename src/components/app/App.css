@@ -465,8 +465,9 @@ button {
   -ms-flex-pack: center;
       justify-content: center;
   font-family: 'Poppins', sans-serif;
-  background: url("/public/Searchs_130.png");
-  background-position: bottom right;
+  background: url("Searchs_130.png");
+  background-attachment:fixed;
+  background-position: top right;
   background-repeat: no-repeat;
   background-size: 100%;
   padding: 15px;
