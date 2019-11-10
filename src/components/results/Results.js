@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
 
-export default class Search extends Component {
+export default class Results extends Component {
     render() {
+        const divStyle = {
+            display: 'none',
+        };
         return (
             <div>
-                <div>
-                    <img src="" alt="img" />
+                <div id="error-msg" style={divStyle}>
+                    <h3> </h3>
+                </div>
+                <div id="content-Result" style={divStyle}>
+                    <img src="img" alt="img" />
                     <h3>Movie Info:  </h3>
                     <h4>Title:  </h4><h5> </h5>
                     <h4>Year:  </h4><h5> </h5>
@@ -14,8 +20,7 @@ export default class Search extends Component {
                     <h4>Runtime:  </h4><h5> </h5>
                     <h4>Genre:  </h4><h5> </h5>
                     <h4>Director:  </h4><h5> </h5>
-                </div>
-                <div>
+                    
                     <h4>Writer:  </h4><h5> </h5>
                     <h4>Actors:  </h4><h5> </h5>
                     <h4>Plot:  </h4><h5> </h5>
