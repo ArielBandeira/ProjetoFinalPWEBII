@@ -5,25 +5,26 @@ import Results from '../results/Results';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from 'react-bootstrap/Navbar';
 
+
 class App extends React.Component {
   render() {
     return (
-      <div>
+      <div className="all">
         <Navbar bg="dark" variant="dark">
-          <Navbar.Brand href="#home">
+          <Navbar.Brand>
             <img
               alt=""
-              src="/logo192.svg"
-              width="30"
-              height="30"
+              src="popcorn.png"
+              width="35"
+              height="35"
               className="d-inline-block align-top"
             />
-            {' Meu filme minha vida '}
+            {' Meu Filme Minha Vida '}
           </Navbar.Brand>
         </Navbar>
-
-        <div className="s130">
-          <form>
+        <div className="container">
+        <div className="s130 row">
+          <form className="col">
             <div className="inner-form">
               <div className="input-field first-wrap">
                 <div className="svg-wrapper">
@@ -37,11 +38,13 @@ class App extends React.Component {
             </div>
             <span className="info">ex. Alien, Guardians Of The Galaxy, O Auto da Compadecida</span>
             <br /><br /><br />
-            <div id="result">
+            </form>
+            <div class="w-100"></div>
+            <div id="result" className="col-7">
               <Results />
             </div>
-          </form>
         </div>
+      </div>
       </div>
     );
   }

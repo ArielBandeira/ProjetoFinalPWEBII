@@ -10,7 +10,7 @@ export default class Search extends Component {
     
     handleClick() {
         const title = document.getElementById("title").value;
-        const url = "http://www.omdbapi.com/?t=" + title + "&apikey=APIKEY";
+        const url = "http://www.omdbapi.com/?t=" + title + "&apikey=c9802ed9";
 
         let ajax = new XMLHttpRequest();
 

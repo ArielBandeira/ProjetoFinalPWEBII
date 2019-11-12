@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 export default class Results extends Component {
     render() {
@@ -11,7 +13,7 @@ export default class Results extends Component {
                     <h3> </h3>
                 </div>
                 <div id="content-Result" style={divStyle}>
-                    <img src="img" alt="img" />
+                    <img className="img-fluid" src="img" alt="img" />
                     <h3>Movie Info:  </h3>
                     <h4>Title:  </h4><h5> </h5>
                     <h4>Year:  </h4><h5> </h5>

@@ -27,6 +27,10 @@ section {
   display: block;
 }
 
+#result {
+  color: #101820FF;
+}
+
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
@@ -457,6 +461,25 @@ button {
   box-sizing: border-box;
 }
 
+.all{
+  background: url("z.jpg");
+  background-attachment:fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.col-7:hover {
+  background-color: rgb(255, 255, 255, 0.2);
+  box-shadow: 5px 10px #2020202a;
+}
+
+.col-7{
+  border-radius: 20px;
+  margin-right: auto;
+  margin-bottom: 10%;
+}
+
 .s130 {
   min-height: 100vh;
   display: -ms-flexbox;
@@ -464,12 +487,6 @@ button {
   -ms-flex-pack: center;
       justify-content: center;
   font-family: 'Poppins', sans-serif;
-  background: url("Searchs_130.png");
-  background-attachment:fixed;
-  background-position: top right;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  padding: 15px;
 }
 
 .s130 form {
@@ -534,7 +551,7 @@ button {
   display: flex;
   -ms-flex-align: center;
       align-items: center;
-  background: #d9f1e3;
+  background: #E8F0FE;
 }
 
 .s130 form .inner-form .input-field.first-wrap input {
@@ -572,13 +589,13 @@ button {
   cursor: pointer;
   position: relative;
   z-index: 0;
-  background: #00ad5f;
+  background: #1A1A24;
   transition: all .2s ease-out, color .2s ease-out;
   font-weight: 300;
 }
 
 .s130 form .inner-form .input-field.second-wrap .btn-search:hover {
-  background: #009451;
+  background: #FF8C1C;
 }
 
 .s130 form .inner-form .input-field.second-wrap .btn-search:focus {
@@ -587,8 +604,8 @@ button {
 }
 
 .s130 form .info {
-  font-size: 15px;
-  color: #ccc;
+  font-size: 17px;
+  color: #fff;
   padding-left: 26px;
 }
 
