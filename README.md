@@ -1,3 +1,37 @@
+# Movie Database Info
+
+This project has a front for searching movies using OMDB API, React and a bit of Ajax.
+
+## OMDB API
+
+The api used in this project was [The Open Movie Database](http://omdbapi.com/).
+
+## Technologies
+
+## Launch
+
+To launch this project you'll need some commands. 
+
+- Launching
+```
+npm start
+```
+
+so check [Available Scripts](#available-scripts)
+
+## Title
+
+### Place 1
+
+Hello, this is some text to fill in this, [here](#place-2), is a link to the second place.
+
+### Place 2
+
+Place one has the fun times of linking here, but I can also link back [here](#place-1).
+
+
+## React App Info
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
