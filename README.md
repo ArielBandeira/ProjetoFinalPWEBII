@@ -2,6 +2,13 @@
 
 This project has a front for searching movies using OMDB API, React and Ajax.
 
+## Table of contents
+* [OMDB API](#omdb-api)
+* [Technologies](#technologies)
+* [Launch](#launch)
+* [React App Info](#react-app-info)
+* [Available Scripts](#available-scripts)
+
 ## OMDB API
 
 The api used in this project was [The Open Movie Database](http://omdbapi.com/).
