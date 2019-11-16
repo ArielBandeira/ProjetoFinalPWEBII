@@ -1,3 +1,45 @@
+# Movie Database Info
+
+This project has a front for searching movies using OMDB API, React and Ajax.
+
+![Farmers Market Finder Demo](https://ibb.co/8x3D4m5)
+
+## Table of contents
+* [OMDB API](#omdb-api)
+* [Technologies](#technologies)
+* [Launch](#launch)
+* [React App Info](#react-app-info)
+* [Available Scripts](#available-scripts)
+
+## OMDB API
+
+The api used in this project was [The Open Movie Database](http://omdbapi.com/).
+
+## Technologies
+
+- Bootstrap 4.3.1
+- HTML/CSS/JavaScript
+- React JS 16.11.0
+- NPM 6.9.0
+
+## Launch
+
+To launch this project you'll need some commands. 
+
+- Launching
+```
+npm start
+```
+
+- Build
+```
+npm build
+```
+
+For more check the [Available Scripts](#available-scripts) part.
+
+## React App Info
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
