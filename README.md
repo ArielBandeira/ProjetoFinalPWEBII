@@ -2,7 +2,8 @@
 
 This project has a front for searching movies using OMDB API, React and Ajax.
 
-![Farmers Market Finder Demo](https://ibb.co/8x3D4m5)
+**_Demo_**
+![](/public/demo.gif)
 
 ## Table of contents
 * [OMDB API](#omdb-api)
@@ -24,6 +25,12 @@ The api used in this project was [The Open Movie Database](http://omdbapi.com/).
 
 ## Launch
 
+You'll need some configurations before launch. First get your API key [here](http://omdbapi.com/). Then change the code where
+it ask for the api key on the _Search.js_ file.
+```
+const url = "http://www.omdbapi.com/?t=" + title + "&apikey=[YOUR_KEY]";
+```
+
 To launch this project you'll need some commands. 
 
 - Launching
@@ -37,6 +44,13 @@ npm build
 ```
 
 For more check the [Available Scripts](#available-scripts) part.
+
+## Authors
+
+* **Tiago Moreira** - *Initial work* - [ArielBandeira](https://github.com/ArielBandeira)
+* **Ariel Bandeira** - *Final work* - [Tiago3F](https://github.com/Tiago3F)
+
+See also the list of [contributors](https://github.com/ArielBandeira/ProjetoFinalPWEBII/contributors) who participated in this project.
 
 ## React App Info
 
