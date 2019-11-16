@@ -19,12 +19,12 @@ class App extends React.Component {
               height="35"
               className="d-inline-block align-top"
             />
-            {' Meu Filme Minha Vida '}
+            {' Popcorn Movie Search '}
           </Navbar.Brand>
         </Navbar>
         <div className="container">
         <div className="s130 row">
-          <form className="col">
+            <form className="col" action="" method="get">
             <div className="inner-form">
               <div className="input-field first-wrap">
                 <div className="svg-wrapper">
@@ -39,7 +39,7 @@ class App extends React.Component {
             <span className="info">ex. Alien, Guardians Of The Galaxy, O Auto da Compadecida</span>
             <br /><br /><br />
             </form>
-            <div class="w-100"></div>
+            <div className="w-100"></div>
             <div id="result" className="col-7">
               <Results />
             </div>

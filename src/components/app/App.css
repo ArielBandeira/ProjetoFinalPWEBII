@@ -476,8 +476,10 @@ button {
 
 .col-7{
   border-radius: 20px;
+  padding: 30px;
   margin-right: auto;
   margin-bottom: 10%;
+  text-align: justify;
 }
 
 .s130 {

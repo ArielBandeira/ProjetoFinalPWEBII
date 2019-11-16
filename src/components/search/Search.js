@@ -62,8 +62,6 @@ export default class Search extends Component {
                 <div className="input-field second-wrap">
                     <button className="btn-search" name="submmit" type="button" onClick={this.handleClick}>SEARCH</button>
                 </div>
-            
-
             </div>
  
         );
