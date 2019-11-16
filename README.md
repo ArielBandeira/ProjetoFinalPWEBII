@@ -2,7 +2,7 @@
 
 This project has a front for searching movies using OMDB API, React and Ajax.
 
-![Farmers Market Finder Demo](demo/demo.gif)
+![Farmers Market Finder Demo](https://ibb.co/8x3D4m5)
 
 ## Table of contents
 * [OMDB API](#omdb-api)
